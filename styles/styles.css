@@ -51,7 +51,7 @@ html {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: var(--primary);
+  background: 1px 1px 12px rgb(74, 175, 247);
   --webkit-mask: repeating-conic-gradient(
       #0000 0deg,
       #000 1deg 70deg,
@@ -731,7 +731,7 @@ span {
 }
 
 .lightbox_content {
-  box-shadow: var(--box-shadow);
+  box-shadow: 1px 1px 12px rgb(74, 175, 247);
   max-width: 75%;
   width: 100%;
   border-radius: 10px;
@@ -764,7 +764,7 @@ span {
   height: 3px;
   margin-top: -1.5px;
   margin-bottom: -1.5px;
-  background-color: var(--white);
+  background-color:rgb(244, 246, 246);
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
