@@ -470,6 +470,134 @@ span {
   line-height: 1.7em;
 }
 
+
+
+  /* MORE SKILLS */
+  .skillset{
+    margin: 150px auto;
+  }
+  
+  .skillset .row1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+  }
+  .row2, .row3{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 30px;
+  }
+  .more-skills h1{
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 900;
+  }
+  .skillset img{
+    width: 110px;
+   border: none;
+   padding: 2.2rem;
+   border-radius: 100px;
+   border-bottom: 6px solid rgb(74, 175, 247);
+  }
+  
+  .skillset img:hover{
+    border: none;
+    border-top: 6px solid rgb(74, 175, 247);
+  }
+  
+  @media (max-width:520px) {
+    .edu-exp-column .edu-exp-title{
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width:350px){
+    .skillset .row1, .row2, .row3{
+      display: grid;
+    flex-direction: column;
+    }
+  }
+
+
+/* EDUCATION & EXPERIENCE */
+.edu-exp {
+  width: auto;
+  height: auto;
+}
+
+.edu-exp-txt {
+  text-align: center;
+
+}
+
+.edu-exp-subheading {
+  color: rgb(74, 175, 247);
+  font-size: 1.2em;
+}
+
+.edu-exp-heading {
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+}
+
+.edu-exp-content {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: space-around;
+  margin: 2rem auto;
+}
+
+.edu-exp-column {
+  margin: 2rem 0rem;
+}
+
+.edu-exp-title {
+  color: rgb(74, 175, 247);
+  padding: 0.5rem 0%;
+  font-size: 2em;
+}
+
+.edu-exp-box {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-left: 2px solid rgb(74, 175, 247);
+  position: relative;
+  margin: 1rem auto;
+}
+
+.edu-exp-box::before {
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: rgb(74, 175, 247);
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: -0.7rem;
+}
+
+.edu-exp-degree-name {
+  font-size: 1.2em;
+}
+
+.edu-exp-year {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bxs-calendar {
+  color: rgb(74, 175, 247);
+  font-size: 2em;
+}
+
+
+
+
 /* PROJECTS */
 .portfolio-container img {
   width: 100%;
@@ -776,6 +904,8 @@ textarea::placeholder {
   font-size: xx-large;
   margin-right: 14px;
 }
+
+
 
 /* SCROLL TO TOP BUTTON */
 
