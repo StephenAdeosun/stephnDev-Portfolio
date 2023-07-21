@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
  
  //---------Typing-------//
  var typed = new Typed(".typing",{
-    strings:["Stephen Adeosun","a Web Developer", "a Front-End Developer", "a React Developer"],
+    strings:["Stephen Adeosun","a Vue Js Developer", "a Front-End Developer", "a React Developer"],
     typeSpeed:50,
     backSpeed:50,
     loop:true
